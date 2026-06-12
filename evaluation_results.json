@@ -1,0 +1,28 @@
+[
+  {
+    "model": "Item-CF (Adjusted Cosine)",
+    "k": 10,
+    "RMSE": 0.942199,
+    "MAE": 0.71491,
+    "rmse_eval_time_sec": 339.85,
+    "MAP@10": 0.005689,
+    "Precision@10": 0.017,
+    "Recall@10": 0.006733,
+    "NDCG@10": 0.017604,
+    "n_users_evaluated": 500,
+    "ranking_eval_time_sec": 266.95
+  },
+  {
+    "model": "SVD (Surprise)",
+    "k": 10,
+    "RMSE": 1.052914,
+    "MAE": 0.885168,
+    "rmse_eval_time_sec": 8.8,
+    "MAP@10": 0.013685,
+    "Precision@10": 0.0374,
+    "Recall@10": 0.01642,
+    "NDCG@10": 0.039113,
+    "n_users_evaluated": 500,
+    "ranking_eval_time_sec": 16.72
+  }
+]
