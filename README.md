@@ -712,7 +712,6 @@ https://www.kaggle.com/datasets/netflix-inc/netflix-prize-data
 
 <div align="center">
 
-**Built with ❤️ on the Netflix Prize Dataset**
 
 `python` · `numpy` · `scipy` · `scikit-surprise` · `pandas` · `tqdm`
 
