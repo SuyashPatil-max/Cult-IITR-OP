@@ -1,22 +1,5 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Netflix-Prize%20Dataset-E50914?style=for-the-badge&logo=netflix&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3.9+-141414?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/scikit--surprise-SVD-E50914?style=for-the-badge" />
-<img src="https://img.shields.io/badge/scipy-Item--CF-141414?style=for-the-badge&logo=scipy&logoColor=white" />
-<img src="https://img.shields.io/badge/License-MIT-E50914?style=for-the-badge" />
-
-<br /><br />
-
-```
-███╗   ██╗███████╗████████╗███████╗██╗     ██╗██╗  ██╗
-████╗  ██║██╔════╝╚══██╔══╝██╔════╝██║     ██║╚██╗██╔╝
-██╔██╗ ██║█████╗     ██║   █████╗  ██║     ██║ ╚███╔╝ 
-██║╚██╗██║██╔══╝     ██║   ██╔══╝  ██║     ██║ ██╔██╗ 
-██║ ╚████║███████╗   ██║   ██║     ███████╗██║██╔╝ ██╗
-╚═╝  ╚═══╝╚══════╝   ╚═╝   ╚═╝     ╚══════╝╚═╝╚═╝  ╚═╝
-```
-
 # 🎬 Recommendation Systems for Personalized Content Discovery
 
 ### *Item-Based Collaborative Filtering · Singular Value Decomposition*
