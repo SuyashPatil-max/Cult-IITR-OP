@@ -96,41 +96,6 @@ data/
 └── movie_titles.csv
 ```
 
-> ⚠️ Due to memory constraints, the pipeline defaults to loading `combined_data_1.txt` only. You can change this to load all four files — see [Module Reference](#-module-reference).
-
----
-
-## 📁 Project Structure
-
-```
-├── data/
-│   ├── combined_data_1.txt         # Raw Netflix ratings (download separately)
-│   ├── combined_data_2.txt
-│   ├── combined_data_3.txt
-│   ├── combined_data_4.txt
-│   ├── movie_titles.csv
-│   └── processed/                  # Auto-generated after preprocessing
-│       ├── ratings_clean.parquet
-│       ├── train.parquet
-│       ├── val.parquet
-│       ├── test.parquet
-│       ├── train_matrix.npz
-│       └── item_cf_similarity.pkl
-│
-├── results/
-│   ├── models/                     # Saved trained model files
-│   └── evaluation_results.json     # Final evaluation output
-│
-├── src/
-│   ├── preprocessing.py            # Data loading, filtering, splitting, matrix building
-│   ├── collaborative_filtering.py  # Item-Based CF with adjusted cosine similarity
-│   ├── svd_model.py                # SVD via Surprise library
-│   └── evaluation.py              # All metrics: RMSE, MAE, MAP@K, Precision, Recall, NDCG
-│
-└── README.md
-```
-
----
 
 ## ⚙️ Installation
 
